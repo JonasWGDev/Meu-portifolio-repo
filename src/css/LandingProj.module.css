@@ -1,0 +1,28 @@
+.container{
+  background-color: #16213e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img{
+  border-radius: 50px;
+  object-fit: cover;
+  width: 450px;
+  height: 350px;
+  margin: 100px 0;
+}
+
+.divBg{
+  background-color: #e84141;
+  height: 40px;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+}
+
+@media (max-width: 860px) {
+  .container img{
+    width: 350px;
+  }
+}

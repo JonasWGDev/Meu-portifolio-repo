@@ -1,0 +1,22 @@
+.contaiHeader{
+  display: flex;
+  align-items: center;
+  padding: 10px 10%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.sideBtn{
+  display: none;
+}
+
+.sideBtn a{
+  font-size: 25px;
+}
+
+@media (max-width: 860px) {
+  .sideBtn{
+    display: inline-block;
+  }
+}

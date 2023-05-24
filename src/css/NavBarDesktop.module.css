@@ -1,0 +1,23 @@
+ul{
+  display: flex;
+  list-style: none;
+}
+
+ul li a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #161616;
+  transition: 0.3s padding;
+  font-size: 1.6em;
+}
+
+ul li a:hover{
+  border-bottom: 2px solid #de4a4a;
+  padding-bottom: 3px;
+}
+
+@media (max-width: 860px) {
+  .container{
+    display: none;
+  }
+}
