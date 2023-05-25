@@ -54,10 +54,12 @@ strong{
 .containerBtn{
   display: flex;
   align-items: center;
-  height: 50px;
+  min-height: 60px;
+  position: relative;
+  bottom: -100px;
 }
 
-.socialDev{
+/* .socialDev{
   text-align: right;
   height: max-content;
   display: flex;
@@ -65,15 +67,15 @@ strong{
   position: absolute;
   bottom: 20px;
   right: 20px;
-}
+} */
 
-.contaiLink{
+/* .contaiLink{
   display: flex;
   justify-content: center;
   position: absolute;
   bottom: 20px;
   left: 20px;
-}
+} */
 
 .socialDev a{
   font-size: 2.3em;
@@ -112,6 +114,20 @@ strong{
 
 @media (max-width: 860px) {
   .socialDev a{
-    margin: 0;
-  } 
+    margin: 5px;
+  }
+
+  .socialDev{
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .containerBtn{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
 }

@@ -3,13 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 570px;
+  min-height: 570px;
 }
 
 .aboutMe{
   background-color: #0F3460;
   padding: 20px 30px;
-  height: 330px;
+  /* height: 330px; */
   width: 550px;
   min-width: 550px;
   border-top: 5px solid #ff4848;
@@ -28,6 +28,8 @@
 .aboutMe p{
   color: #f1f1f1;
   font-size: 1.5em;
+  margin-bottom: 70px;
+  min-height: 100px;
 }
 
 .aboutMe a{
