@@ -14,8 +14,8 @@
 }
 
 .ContaiSkills{
-  justify-content: center;
   display: flex;
+  justify-content: center;
 }
 
 .item{
@@ -24,10 +24,11 @@
   height: 130px;
   cursor: pointer;
   transition: 2s;
+  width: 175px;
 }
 
 .item:hover{
-  height: 300px;
+  height: 330px;
   transition: 2s;
 }
 

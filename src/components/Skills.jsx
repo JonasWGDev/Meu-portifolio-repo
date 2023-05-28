@@ -40,15 +40,15 @@ const Skills = () => {
           <FaCss3Alt style={iconMd} />
           <h1>CSS3</h1>
           <h1>SASS</h1>
-          <h1>MEDIA QUARY</h1>
+          <h1>MEDIA QUERY</h1>
           <h1>DESIGN RESPONSIVO</h1>
         </div>
 
         <div className={style.item}>
           <FaJsSquare style={styleIcon} />
-          <h1>JAVASCRIPT</h1>
+          <h1>JAVASCRIPT - NIVEL </h1>
           <h1>REACT JS</h1>
-          <h1>JQUARY - APRENDENDO</h1>
+          <h1>JQUERY - NIVEL INTERMEDIÁRIO</h1>
         </div>
       </div>
 
@@ -57,8 +57,8 @@ const Skills = () => {
         <div className={style.contaiSoft}>
           <h1><FaCircle style={styCircle} />Trabalho em equipe</h1>
           <h1><FaCircle style={styCircle} />Organizado</h1>
-          <h1><FaCircle style={styCircle} />Aprende rapido</h1>
-          <h1><FaCircle style={styCircle} />Responsavel</h1>
+          <h1><FaCircle style={styCircle} />Aprende rápido</h1>
+          <h1><FaCircle style={styCircle} />Responsável</h1>
           <h1><FaCircle style={styCircle} />Sempre aprendendo novas habilidades/tecnologias</h1>
         </div>
       </div>

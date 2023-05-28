@@ -7,6 +7,10 @@ import logo from "../img/Logo.png";
 
 const Footer = () => {
 
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0)
+  };
+
   return (
     <div className={style.container}>
       <div className={style.logo}>
@@ -20,10 +24,10 @@ const Footer = () => {
         </div>
 
         <div className={style.links}>
-          <Link to={"/"}>Inicio</Link>
-          <Link to={"/projetos"}>Projetos</Link>
-          <Link to={"/contato"}>Contato</Link>
-          <Link to={"/sobre"}>Sobre</Link>
+          <Link to={"/"} onClick={handleScrollToTop}>Inicio</Link>
+          <Link to={"/projetos"} onClick={handleScrollToTop}>Projetos</Link>
+          <Link to={"/contato"} onClick={handleScrollToTop}>Contato</Link>
+          <Link to={"/sobre"} onClick={handleScrollToTop}>Sobre</Link>
         </div>
 
         <div className={style.socialIcons}>
