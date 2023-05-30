@@ -46,7 +46,7 @@ const Skills = () => {
 
         <div className={style.item}>
           <FaJsSquare style={styleIcon} />
-          <h1>JAVASCRIPT - NIVEL </h1>
+          <h1>JAVASCRIPT - NIVEL INTERMEDIÁRIO</h1>
           <h1>REACT JS</h1>
           <h1>JQUERY - NIVEL INTERMEDIÁRIO</h1>
         </div>
